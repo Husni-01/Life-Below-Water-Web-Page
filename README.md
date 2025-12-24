@@ -1,44 +1,49 @@
-# Life-Below-Water-Web-Page
-This is a group project created for the Web Design and Development module at the University of Westminster. The website focuses on raising awareness about UN Sustainable Development Goal 14: Life Below Water, using HTML, CSS, and JavaScript.
+# Life Below Water – SDG 14 Website
 
-**Team Members and Responsibilities**
-Raneth Mendis – Student 1
+This is a group project created for the Web Design and Development module at the University of Westminster. The website focuses on raising awareness about **UN Sustainable Development Goal 14: Life Below Water**, using HTML, CSS, and JavaScript.
 
-Splash screen
-Volunteer page
-Content page ST1
-Page editor & validation
+## Team Members and Responsibilities
 
-Husni Atham – Student 2
-Website template + Global CSS
-Navigation bar
-Home page
-Table page
-Content page ST2
-Page editor & validation
+- **Raneth Mendis** – Student 1  
+  - Splash screen  
+  - Volunteer page  
+  - Content page ST1  
+  - Page editor & validation
 
-Ravindu – Student 3
-Feedback page
-Team page
-Content page ST3
-Page editor & validation
+- **Husni Atham** – Student 2  
+  - Website template + Global CSS  
+  - Navigation bar  
+  - Home page  
+  - Table page  
+  - Content page ST2  
+  - Page editor & validation
 
-Dhaula – Student 4
-User profile
-Sitemap
-Content page ST4
-Page editor & validation
-Technologies Used
-HTML5
-CSS3
-JavaScript (basic interactivity)
-Folder Structure
-home.html – Main landing page
-splash.html – Animated splash screen
-volunteer.html, feedback.html, profile.html, sitemap.html, team.html – Subpages
-content_ST1.html to content_ST4.html – Individual content pages
-pageEditor_ST1.html to pageEditor_ST4.html – Individual technical reports
-validation_ST1.html to validation_ST4.html – Validation evidence
-images/ – Images folder
-css/ – CSS folder
-js/ – JavaScript folder
+- **Ravindu** – Student 3  
+  - Feedback page  
+  - Team page  
+  - Content page ST3  
+  - Page editor & validation
+
+- **Dhanula** – Student 4  
+  - User profile  
+  - Sitemap  
+  - Content page ST4  
+  - Page editor & validation
+
+## Technologies Used
+
+- HTML5  
+- CSS3  
+- JavaScript (basic interactivity)  
+
+## Folder Structure
+
+- `home.html` – Main landing page  
+- `splash.html` – Animated splash screen  
+- `volunteer.html`, `feedback.html`, `profile.html`, `sitemap.html`, `team.html` – Subpages  
+- `content_ST1.html` to `content_ST4.html` – Individual content pages  
+- `pageEditor_ST1.html` to `pageEditor_ST4.html` – Individual technical reports  
+- `validation_ST1.html` to `validation_ST4.html` – Validation evidence  
+- `images/` – Images folder  
+- `css/` – CSS folder
+- `js/` – JavaScript folder
