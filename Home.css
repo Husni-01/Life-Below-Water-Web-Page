@@ -255,7 +255,7 @@ footer video {
 
 
 
-}
+
 .footer-section {
     flex: 1;  /* Allow sections to take equal width */
     min-width: 250px;  /* Ensure sections don't get too narrow on small screens */
@@ -322,4 +322,5 @@ footer video {
 
 .social-icons li a:hover {
     color: cyan;
+
 }
