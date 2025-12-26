@@ -1,123 +1,147 @@
+my code                                                                                                                                             
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Life Below Water</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title> Life Below Water </title>
+	<link rel="stylesheet" href="Home.css">  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-
 <body>
-
-<!-- BACKGROUND VIDEO -->
-<video autoplay muted loop playsinline id="myVideo">
-    <source src="videos/background.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-</video>
-
-<!-- HEADER / NAVBAR -->
-<header>
-    <div class="logo">
-        <img src="images/logo.png" alt="Logo">
-    </div>
-
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Mission</a></li>
-            <li><a href="#">Threats</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
-<!-- MAIN CONTENT -->
-<section class="mission">
-    <h1 class="missionheading">Life Below Water</h1>
-</section>
-
-<div class="content">
-    Protecting oceans, coral reefs, and marine life for future generations.
-</div>
-
-<!-- CARDS -->
-<div class="card-container">
-
-    <div class="card">
-        <div class="card-icon">
-            <i class="fas fa-water"></i>
-        </div>
-        <div class="card-content">
-            <h3>Clean Oceans</h3>
-            <p>Reduce marine pollution and plastic waste.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-icon">
-            <i class="fas fa-fish"></i>
-        </div>
-        <div class="card-content">
-            <h3>Marine Life</h3>
-            <p>Protect endangered marine species.</p>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-icon">
-            <i class="fas fa-leaf"></i>
-        </div>
-        <div class="card-content">
-            <h3>Sustainability</h3>
-            <p>Promote sustainable fishing practices.</p>
-        </div>
-    </div>
-
-</div>
-
-<!-- FOOTER -->
-<footer>
-
-    <video autoplay muted loop playsinline>
-        <source src="videos/background.mp4" type="video/mp4">
+    <!-- Full-Screen Video Background -->
+    <video autoplay muted loop id="myVideo">
+        <source src="Shark.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
     </video>
 
-    <div class="footer-content">
-
-        <div class="footer-section">
-            <h3>About</h3>
-            <ul>
-                <li><a href="#">SDG 14</a></li>
-                <li><a href="#">Our Mission</a></li>
-            </ul>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">
+            <img src="fish.png" alt="Life Below Water Logo">
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Table.html">MEMBERSHIP</a></li>
+                <li><a href="feedback.html.html">FEEDBACK</a></li>
+				<li><a href="volunteer.html">VOLUNTEER</a></li>
+                <li><a href="Profile.html">USER PROFILE</a></li>
+                <li><a href="Team.html">ABOUT US</a></li>
+                <li><a href="Sitemap.html">SITE MAP</a></li>
+            </ul>
+        </nav>
+    </header>
+	<section class="webmission">  
+        <div class="mission">
+            <img src="fish.png" alt="mission picture" class="missionimg"><br>
+            <div class="missionheading">
+				<p>  LIFE BELOW<br> WATER</p>
+			<div class="content">
+				<p>Conserve and sustainably use the oceans, seas and marine resources for sustainable development</p>
+				</div>
+			</div>   
+        </div>
+
+        <div class="missioncontent">
+        </div>
+    </section>
+	
+
+    <!-- Content on top of the video -->
+    
+        <div class="card-container">
+            <div class="card">
+           <div class="card-icon">
+                <i class="fas fa-newspaper"></i>
+            </div>			
+                <div class="card-content">
+                    <h3>TARGETS</h3>
+                    <p>Everyone can help to make sure that we meet the Global Goals. Use these ten targets to create action to conserve and sustainably use the oceans.</p>
+                    <button class="button-a" onclick="window.open('targets.html', '_blank')"></button>
+					<a href="https://www.globalgoals.org/goals/14-life-below-water/" class="button-a">Read More</a>
+					
+                </div>
+            </div>
+
+            <div class="card">
+			<div class="card-icon">
+                <i class="fas fa-newspaper"></i>
+            </div>
+                <div class="card-content">
+                    <h3>THINGS TO DO</h3>
+                    <p>Promote sustainability and compassion to protect marine life. Reduce plastic use, support sustainable seafood, and participate in beach cleanups.</p>
+                    <button class="button-b" onclick="https://www.globalgoals.org/goals/14-life-below-water/"></button>
+					<a href="https://www.globalgoals.org/goals/14-life-below-water/" class="button-b">Read More</a>
+
+                </div>
+            </div>
+
+            <div class="card">
+            <div class="card-icon">
+                <i class="fas fa-newspaper"></i>
+            </div>			
+                <div class="card-content">
+                    <h3>NEWS</h3>
+                    <p>Everyone can help to make sure that we meet the Global Goals. Use these ten targets to create action to protect the ocean.</p>
+                    <button class="button-c" onclick="window.open('//www.iaea.org/news/4730', '_blank')"></button>
+					<a href="https://www.globalgoals.org/goals/14-life-below-water/" class="button-c">Read More</a>
+					
+                </div>
+            </div>
+        </div>
+    </div>
+	
+
+<footer>
+    <div class="footer-overlay"></div>
+    <video autoplay loop muted>
+        <source src="Shark.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+<div class="footer-content">
+<div class="footer-section">
+    <h3 class="H3">Contact Us</h3>
+    <div class="elements">
+        <a href="mailto:husniatham@gmail.com">Email: <br>husniatham@gmail.com</a>
+        <p>Phone: <br>  +94 71 439 8375</p>
+        <p>Address: Mount Lavinia</p>
+    </div>
+</div>
 
         <div class="footer-section">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="able.html">MEMBERSHIP</a></li>
+                <li><a href="feedback.html.html">FEEDBACK</a></li>
+                <li><a href="Profile.html">USER PROFILE</a></li>
+                <li><a href="Team.html">ABOUT US</a></li>
+                <li><a href="Sitemap.html">SITE MAP</a></li>
             </ul>
         </div>
-
         <div class="footer-section">
             <h3>Follow Us</h3>
             <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100074258534518" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/husni_atham01/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/Husni-01" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/husni-atham-22b80432a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSljn%2BDHPTFOr13rGdimLgA%3D%3D" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
         </div>
-
+		        <div class="footer-section">
+            <h3>Page Editors</h3>
+            <ul>
+                <li><a href="pageEditor_ST1.html">Student 1</a></li>
+                <li><a href="PageEditor_ST2.html">Student 2</a></li>
+                <li><a href="pageEditor_ST3.html.html">Student 3</a></li>
+                <li><a href="pageediter.html">Student 4</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
-
 </body>
-</html>
+
+</html>          
+
+
