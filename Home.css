@@ -29,11 +29,14 @@
 
 /* Body */
 body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
     color: white;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
+    background: transparent;   /* 🔑 IMPORTANT */
 }
+
 
 /* ================= NAVBAR ================= */
 
@@ -273,4 +276,5 @@ footer video {
 .social-icons li a:hover {
     color: cyan;
 }
+
 
