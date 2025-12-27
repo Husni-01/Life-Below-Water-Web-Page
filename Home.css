@@ -16,23 +16,18 @@
   z-index: -1;
 }
 
-.hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-/* Background video */
-.hero video {
-    position: absolute;
+/* ===== FULLSCREEN BACKGROUND VIDEO ===== */
+#myVideo {
+    position: fixed;          /* Stay fixed in background */
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
+    width: 100vw;             /* Full viewport width */
+    height: 100vh;            /* Full viewport height */
+    object-fit: cover;        /* Crop without distortion */
+    z-index: -1;              /* Behind all content */
+    background: black;        /* Fallback */
 }
+
 
 /* Text overlay */
 .hero-content {
@@ -308,6 +303,7 @@ footer video {
 .social-icons li a:hover {
     color: cyan;
 }
+
 
 
 
