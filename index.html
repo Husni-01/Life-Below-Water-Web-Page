@@ -9,12 +9,11 @@
 </head>
 <body>
 
-<div>
-   <!-- Full-Screen Video Background -->
-   <video autoplay muted loop id="myVideo">
-     <source src="https://player.cloudinary.com/embed/?cloud_name=drw8ltqaz&public_id=Shark_cbvfsd&profile=cld-default" type="video/mp4">
-     <source src="videos/Shark.webm" type="video/webm">
-   </video>
+<div class="video-container">
+    <video autoplay muted loop playsinline poster="images/shark-fallback.jpg" class="back-video">
+        <source src="videos/Shark.webm" type="video/webm">
+        <source src="Shark.mp4" type="video/mp4">
+    </video>
 </div>
 
     <!-- Navbar -->
