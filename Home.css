@@ -236,7 +236,7 @@ footer video {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    filter: blur(10px);
+    filter: blur(5px);
 }
 
 /* Footer Content */
@@ -303,6 +303,7 @@ footer video {
 .social-icons li a:hover {
     color: cyan;
 }
+
 
 
 
