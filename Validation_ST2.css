@@ -353,12 +353,13 @@ header:hover::after {
 
 .logo img {
     width: 80px;
-	z-index:5;
+    margin-top: 20px; 
+    z-index:5;
 }
 
 nav {
     text-align: center;
-    padding: 40px 50px 37px 50px;
+    padding: 60px 50px 55px 50px;
     flex-grow: 1;
 }
 
@@ -367,7 +368,9 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 51px;
-	border-radius:50px;
+    border-radius:50px;
+    margin-top: 15px; 
+    margin-left: 14px;
 }
 
 nav ul li {

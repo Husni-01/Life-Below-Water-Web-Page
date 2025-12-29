@@ -161,8 +161,8 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 51px;
-	border-radius:50px;
+    gap: 48px;
+    border-radius:50px;
 }
 
 nav ul li {
